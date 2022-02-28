@@ -1,0 +1,19 @@
+
+// INTEGER NATURAL NUMBER
+// STRING BOOL
+
+DEEMODL author
+	FIELD name
+		STRING
+		MIN 10
+		MAX 20
+		DEFAULT "Anon Ymous"
+	end FIELD
+
+	FIELD age
+		NATURAL
+		MIN 0
+		MAX 150
+		DEFAULT 18
+	end FIELD
+end DEEMODL
